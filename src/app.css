@@ -1,0 +1,23 @@
+@import 'tailwindcss';
+@plugin '@tailwindcss/typography';
+/* @import '@tailwindcss/typography'; */
+/* @plugin 'daisyui'; */
+
+@plugin "daisyui" {
+	themes:
+		light --default,
+		black --prefersdark;
+	/* synthwave --prefersdark; */
+}
+
+/* Smooth scrolling */
+html {
+	scroll-behavior: smooth;
+}
+.line-clamp-2 {
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	line-clamp: 2;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+}

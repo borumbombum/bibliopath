@@ -1,0 +1,38 @@
+[
+	{
+		"title": "A Declaration of the Independence of Cyberspace (1996)",
+		"author": "John Perry Barlow",
+		"url": "https://raw.githubusercontent.com/bogrod/independence-of-cyberspace/refs/heads/master/README.md",
+		"type": "markdown"
+	},
+	{
+		"title": "The Wealth of Nations (1776)",
+		"author": "Adam Smith",
+		"url": "https://raw.githubusercontent.com/mlschmitt/classic-books-markdown/main/Adam%20Smith/The%20Wealth%20of%20Nations.md",
+		"type": "markdown"
+	},
+	{
+		"title": "Democracy in America (1835)",
+		"author": "Alexis de Tocqueville",
+		"url": "https://raw.githubusercontent.com/mlschmitt/classic-books-markdown/refs/heads/main/Alexis%20de%20Tocqueville/Democracy%20in%20America.md",
+		"type": "markdown"
+	},
+	{
+		"title": "Anthem (1938)",
+		"author": "Ayn Rand",
+		"url": "https://raw.githubusercontent.com/mlschmitt/classic-books-markdown/refs/heads/main/Ayn%20Rand/Anthem.md",
+		"type": "markdown"
+	},
+	{
+		"title": "Les Fleurs du mal (1857)",
+		"author": "Charles Baudelaire",
+		"url": "https://raw.githubusercontent.com/mlschmitt/classic-books-markdown/refs/heads/main/Charles%20Baudelaire/Les%20Fleurs%20du%20mal.md",
+		"type": "markdown"
+	},
+	{
+		"title": "The Call of Cthulhu (1926)",
+		"author": "H.P. Lovecraft",
+		"url": "https://raw.githubusercontent.com/mlschmitt/classic-books-markdown/refs/heads/main/H.P.%20Lovecraft/The%20Call%20of%20Cthulhu.md",
+		"type": "markdown"
+	}
+]
