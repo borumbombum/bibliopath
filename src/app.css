@@ -6,7 +6,7 @@
 @plugin "daisyui" {
 	themes:
 		light --default,
-		black --prefersdark;
+		night --prefersdark;
 	/* synthwave --prefersdark; */
 }
 
