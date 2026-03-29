@@ -11,13 +11,13 @@
 	let { searchQuery = $bindable(''), onSearchClick, onSearchKeydown } = $props();
 
 	let totalBookCount = $state(0);
-	let theme = $state('dark'); // Default, will be overridden by loadSavedState
+	let theme = $state('night'); // Default, will be overridden by loadSavedState
 	let showSearch = $state(false);
 
 	onMount(async () => {
 		// Load theme from localStorage
 		if (browser) {
-			const savedTheme = localStorage.getItem('bibliopath-theme') || 'dark';
+			const savedTheme = localStorage.getItem('bibliopath-theme') || 'night';
 			console.log(`Saved theme... ${savedTheme}`);
 			// Apply theme immediately using the imported function
 			changeTheme(savedTheme, false);
@@ -44,7 +44,7 @@
 	});
 
 	function toggleTheme() {
-		const newTheme = theme === 'dark' ? 'light' : 'dark';
+		const newTheme = theme === 'night' ? 'light' : 'night';
 		theme = newTheme;
 		changeTheme(newTheme, true);
 	}
@@ -152,9 +152,9 @@
 			class="btn btn-ghost btn-circle"
 			onclick={toggleTheme}
 			aria-label="Toggle theme"
-			title={theme === 'dark' ? 'Switch to light mode' : 'Switch to dark mode'}
+			title={theme === 'night' ? 'Switch to light mode' : 'Switch to dark mode'}
 		>
-			{#if theme === 'dark'}
+			{#if theme === 'night'}
 				<Sun class="h-5" />
 			{:else}
 				<Moon class="h-5" />

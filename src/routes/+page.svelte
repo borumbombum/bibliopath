@@ -22,7 +22,7 @@
 
 	onMount(() => {
 		if (browser) {
-			const savedTheme = localStorage.getItem('bibliopath-theme') || 'dark';
+			const savedTheme = localStorage.getItem('bibliopath-theme') || 'night';
 			theme = changeTheme(savedTheme, false);
 		}
 	});
@@ -78,7 +78,11 @@
 			{#each curatedBooks as book}
 				<div class="card bg-base-200 shadow-sm">
 					<figure class="hidden">
-						<img src={'/images/placeholder-book.jpg'} alt="Book Cover" class="h-48 w-full object-cover" />
+						<img
+							src={'/images/placeholder-book.jpg'}
+							alt="Book Cover"
+							class="h-48 w-full object-cover"
+						/>
 					</figure>
 					<div class="card-body p-4">
 						<h3 class="card-title line-clamp-2 text-lg">{book.title}</h3>

@@ -37,7 +37,7 @@
 	let chapters: Chapter[] = $state([]);
 	let currentChapterIndex = $state(0);
 	let fontSize = $state(18);
-	let theme = $state('dark'); // Default, will be overridden by loadSavedState
+	let theme = $state('night'); // Default, will be overridden by loadSavedState
 
 	let showSidebar = $state(false);
 	let readingProgress = $state(0);
@@ -99,7 +99,7 @@
 
 			if (browser) {
 				// Load theme first to prevent flash and apply immediately
-				const savedTheme = localStorage.getItem('bibliopath-theme') || 'dark';
+				const savedTheme = localStorage.getItem('bibliopath-theme') || 'night';
 				console.log(`Saved theme... ${savedTheme}`);
 				// Apply theme immediately using the imported function
 				changeTheme(savedTheme, false);
@@ -941,10 +941,10 @@
 										Light
 									</button>
 									<button
-										class="btn join-item flex-1 {theme === 'dark' ? 'btn-primary' : 'btn-outline'}"
+										class="btn join-item flex-1 {theme === 'night' ? 'btn-primary' : 'btn-outline'}"
 										onclick={() => {
-											theme = 'dark';
-											changeTheme('dark', true);
+											theme = 'night';
+											changeTheme('night', true);
 										}}
 									>
 										Dark
