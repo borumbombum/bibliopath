@@ -39,11 +39,10 @@ export const AppConfig = {
 	base_index_url: 'https://gutendex.com/books',
 	books_per_page: 32,
 	links: {
-		about: 'https://github.com/borumbombum/bibliopath',
+		about: '/p/about',
 		roadmap: 'https://github.com/borumbombum/bibliopath?tab=readme-ov-file#core-functionalities',
 		nostr:
 			'https://primal.net/p/nprofile1qqs8wftkcz9achdy8ascqtnk0v3rrcevda2klm8wqyd6xrlk8skc22gekra89',
-		donate:
-			'https://zapper.nostrapps.org/zap?id=npub1wujhdsytm3w6g0mpsqh8v7ezx83jcm64dlkwuqgm5v8lv0pds55ssudkw0'
+		donate: 'https://zapme.coffee/#npub1wujhdsytm3w6g0mpsqh8v7ezx83jcm64dlkwuqgm5v8lv0pds55ssudkw0'
 	}
 };

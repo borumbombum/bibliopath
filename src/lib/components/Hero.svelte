@@ -24,11 +24,6 @@
 			<span> Consider zapping a coffee</span>
 		</a>
 		<!-- <div class="divider divider-horizontal">OR</div> -->
-		<a
-			target="_blank"
-			rel="nofollow noopener"
-			class="btn btn-sm btn-ghost"
-			href={AppConfig.links.about}>Learn more</a
-		>
+		<a class="btn btn-sm btn-ghost" href={AppConfig.links.about}>Learn more</a>
 	</div>
 </div>
